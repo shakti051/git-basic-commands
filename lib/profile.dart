@@ -11,6 +11,7 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text("This is Profile section"),),
     body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
