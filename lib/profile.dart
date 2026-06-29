@@ -14,8 +14,9 @@ class _ProfileState extends State<Profile> {
     body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text("Name : Shakti Tripathi"),
-        Text("Gender : Male")
+        Text("Name : Shubham Tripathi"),
+        Text("Gender : Male"),
+        Text("Age: 31")
     ],),
     );
   }
