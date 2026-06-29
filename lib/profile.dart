@@ -17,7 +17,8 @@ class _ProfileState extends State<Profile> {
         Text("Name : Shubham Tripathi"),
         Text("Gender : Male"),
         Text("Age: 31"),
-        Text("Profession: Law")
+        Text("Profession: Law"),
+        Text("Total Exp: 6 year")
     ],),
     );
   }
