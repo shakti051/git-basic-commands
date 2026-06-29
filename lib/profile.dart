@@ -16,7 +16,8 @@ class _ProfileState extends State<Profile> {
       children: [
         Text("Name : Shubham Tripathi"),
         Text("Gender : Male"),
-        Text("Age: 31")
+        Text("Age: 31"),
+        Text("Profession: Law")
     ],),
     );
   }
