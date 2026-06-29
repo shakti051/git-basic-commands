@@ -9,11 +9,18 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
+  TextEditingController emailController = TextEditingController();
+  TextEditingController passwordController = TextEditingController(); 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [
-                   
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+        TextFormField(),
+        TextFormField(),
+        SizedBox(height: 50),
+        ElevatedButton(onPressed: (){}, child: Text("Login") )
       ],),
     );
   }
