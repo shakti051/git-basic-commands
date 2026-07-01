@@ -22,7 +22,8 @@ class _ProfileState extends State<Profile> {
         Text("Total Exp: 6 year"),
         Text("Organization: Aurionpro"),
         Text("City: New Delhi"),
-        Text("Salary: 20 LPA")
+        Text("Salary: 20 LPA"),
+        Text("Status: Married")
     ],),
     );
   }
